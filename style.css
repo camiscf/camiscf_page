@@ -9,6 +9,8 @@
 body{
     background: var(--background-color);
     color:var(--text-color);
+    font-family: 'Inter', sans-serif;
+
 }
 *{
     margin: 0;
@@ -20,6 +22,7 @@ nav{
     align-items: flex-start;
     justify-content: space-between;
     padding: 1.5em;
+    margin: 0 5em;
 }
 .nav-a{
     font-family: 'Inter', sans-serif;
@@ -43,4 +46,77 @@ nav{
 .nav-a:hover{
     text-decoration: underline;
     transition:all 0.3s ease-in
+}
+.fill{
+    text-decoration: none;
+    padding: 1em;
+    background: 0%;
+    border: 0.2em solid var(--highlights-color);
+    border-radius: 0.2em;
+    width: 12em;
+    height: 3em;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--highlights-color);
+}
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--highlights-color);
+  transition: 0.2s ease-in-out;
+  color:var(--background-color);
+}
+section h6{
+    font-size: 1em;
+    color:var(--highlights-color);
+    font-weight: 700;
+}
+
+section h3{
+    font-size: 2em;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+section p{
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+.intro{
+    line-height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 4em;
+    margin: 0em 3em;
+}
+.title-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--highlights-color);
+    padding: 1em;
+    margin: 0.6em 0;
+}
+
+#about-me{
+    font-size: 2em;
+    color: var(--highlights-color);
+    font-weight: bold;
+}
+.about{
+    padding: 0.5em;
+    margin: 0 3em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.about p{
+    line-height: 2em;
+    text-align: justify;
+}
+.about img{
+    margin-right: 4em;
 }
