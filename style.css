@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Titillium+Web&display=swap');
+
+
+:root{
+    --background-color:#190B28;
+    --highlights-color: #F96865;
+    --text-color: #F9F5FF;
+}
+body{
+    background: var(--background-color);
+    color:var(--text-color);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+.nav-a{
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    color:var(--text-color);
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 2.375em;
+}
+#nav-name{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:500;
+    font-size: 1em;
+}
+#nav-links{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.nav-a:hover{
+    text-decoration: underline;
+    transition:all 0.3s ease-in
+}
