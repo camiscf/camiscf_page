@@ -89,7 +89,7 @@ section p{
     align-items: center;
     justify-content:space-between;
     padding: 4em;
-    margin: 0em 3em;
+    margin: 1em 3em;
 }
 .title-main{
     display: flex;
@@ -113,10 +113,24 @@ section p{
     justify-content: space-between;
     flex-direction: row;
 }
-.about p{
+#me-text{
     line-height: 2em;
     text-align: justify;
 }
-.about img{
+#me{
     margin-right: 4em;
+}
+
+.scroll-element,
+.scroll-caption {
+  width: auto;
+}
+
+.scroll-element {
+  min-height: 300px;
+  height: 100%;
+}
+
+.scroll-caption {
+  margin: 1rem;
 }
