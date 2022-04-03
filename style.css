@@ -124,5 +124,10 @@ section p{
 .icon{
     width: 3em; 
     height: 3em;
-    margin-right: 1em;    
+    margin-right: 4em;    
+}
+#icons{
+    padding: 0.5em;
+    margin: 1.3em 9em;
+    transform: translateY(-5em);
 }
