@@ -131,3 +131,19 @@ section p{
     margin: 1.3em 9em;
     transform: translateY(-5em);
 }
+.title-sub{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--text-color);
+    font-weight: lighter;
+    font-size: 1.4em;
+    padding: 0.8em;
+    margin: 1em 3em;
+}
+.skills-icon{
+    width: 5.2em; 
+    height: 5.2em;
+    margin: 0em 5em;
+    margin-right: 4em;    
+}
